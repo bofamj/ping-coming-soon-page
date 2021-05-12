@@ -1,0 +1,110 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Libre Franklin', sans-serif;
+	width: 100%;
+}
+.continer {
+	width: 60vw;
+	height: 90vh;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.contant {
+	width: 60vw;
+	height: 30vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.logo {
+	margin-top: -40px;
+}
+.maie {
+	margin-top: -80px;
+}
+.text {
+	margin-top: -90px;
+}
+.bottinn {
+	width: 40vw;
+	height: 7vh;
+	display: flex;
+	margin-top: -50px;
+	position: relative;
+}
+.bottinn input {
+	width: 30vw;
+	height: 7vh;
+	border-radius: 30px;
+	border: 1px solid hsl(0, 0%, 59%);
+	background-color: transparent;
+	padding-left: 10px;
+}
+.bottinn button {
+	width: 10vw;
+	height: 7vh;
+	border-radius: 30px;
+	margin-left: 10px;
+	background-color: hsl(223, 87%, 63%);
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+.warrning {
+	color: red;
+	position: absolute;
+	top: 20px;
+}
+.bottinn input:active {
+	border: none;
+}
+.hero {
+	width: 60vw;
+	height: 40vh;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hero-img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 45vw;
+	height: 45vh;
+	position: absolute;
+	bottom: -10%;
+}
+.social {
+	width: 45vw;
+	height: 10vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	margin-top: 20px;
+}
+
+.social ul a {
+	text-decoration: none;
+	padding: 20px;
+
+	color: hsl(223, 87%, 63%);
+}
+.social span {
+	font-size: 10px;
+	margin-top: 10px;
+	color: hsl(0, 0%, 59%);
+}
